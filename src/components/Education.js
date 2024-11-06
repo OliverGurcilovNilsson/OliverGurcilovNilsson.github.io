@@ -25,3 +25,6 @@ export const educationList: EducationItem[] = [
         description: 'Focused on advanced software engineering principles and project management.',
     },
 ];
+
+
+export default educationList;
