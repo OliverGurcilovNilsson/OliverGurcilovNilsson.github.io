@@ -9,11 +9,11 @@ export type EducationItem = {
 
 export const educationList: EducationItem[] = [
     {
-        institution: 'University of Macedonia',
+        institution: 'Stockholm University',
         degree: 'Bachelor of Science',
         fieldOfStudy: 'Computer Science',
-        startDate: 'September 2016',
-        endDate: 'June 2020',
+        startDate: 'September 2021',
+        endDate: 'January 2024',
         description: 'Studied computer science fundamentals, algorithms, and software development practices.',
     },
     {

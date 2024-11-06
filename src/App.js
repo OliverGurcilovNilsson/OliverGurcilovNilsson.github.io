@@ -1,5 +1,6 @@
 import './App.css';
-import { educationList, EducationItem } from './components/Education';
+import {educationList} from "./components/Education";
+import {EducationItem} from "./components/Education";
 
 function App() {
   return (
