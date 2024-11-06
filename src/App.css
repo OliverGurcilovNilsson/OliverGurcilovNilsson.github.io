@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a; /* Dark background color */
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+  linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px; /* Adjust size for smaller or larger grids */
 }
 
 .App-logo {
@@ -13,16 +21,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -30,6 +28,47 @@
 
 .App-header {
   text-align: center;
+}
+.content-box {
+  padding: 2rem;
+  border: 2px solid #ffffff; /* Adjust to yellow if you want the same color as the buttons */
+  border-radius: 12px;
+  background-color: #141414;
+  max-width: 600px;
+  margin: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  margin-top: 20px;
+}
+
+.social-btn {
+  padding: 10px 15px;
+  border: 2px solid #ffd700; /* Yellow border */
+  border-radius: 10px;
+  background-color: #141414; /* Match the box background */
+  color: #ffd700; /* Yellow color for text/icons */
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-btn:hover {
+  background-color: #ffd700; /* Change to yellow on hover */
+  color: #141414; /* Dark text on hover */
+}
+
+.content-box h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .page {
