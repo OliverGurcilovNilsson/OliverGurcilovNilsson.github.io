@@ -1,0 +1,79 @@
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    color: inherit; /* Ensure it inherits text color from parent */
+    border-radius: 8px;
+    width: 70vw;
+    height: 80vh;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.portfolio-text {
+    width: 40%;
+    padding-right: 2rem;
+    text-align: left;
+    color: inherit; /* Ensure it inherits color from parent */
+}
+
+.portfolio-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+    color: inherit; /* Inherit color to adjust for light/dark mode */
+}
+
+.portfolio-video {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.portfolio-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    transform: rotateY(-10deg) rotateX(5deg);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-video video:hover {
+    transform: rotateY(-5deg) rotateX(3deg) scale(1.05);
+}
+
+.arrow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+}
+
+.arrow-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left-arrow {
+    left: 1rem;
+}
+
+.right-arrow {
+    right: 1rem;
+}

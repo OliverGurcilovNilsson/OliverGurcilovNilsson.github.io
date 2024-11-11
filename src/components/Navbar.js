@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Navbar.css'; // Create this CSS file for styling the navbar
+import './Navbar.css';
 
 function Navbar({ onNavigate }) {
     const [isOpen, setIsOpen] = useState(false);
