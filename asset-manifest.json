@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e516bbca.css",
-    "main.js": "/static/js/main.6fa23d70.js",
+    "main.css": "/static/css/main.2f45eeef.css",
+    "main.js": "/static/js/main.2528abc1.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/geocroquetLandingImage.png": "/static/media/geocroquetLandingImage.cab3cc8891fa44d7d129.png",
+    "static/media/cv-bild.jpeg": "/static/media/cv-bild.f08316054fb4c86e8f63.jpeg",
+    "static/media/OpOpImage.png": "/static/media/OpOpImage.82218d94f0f4fd8c4ea4.png",
     "index.html": "/index.html",
-    "main.e516bbca.css.map": "/static/css/main.e516bbca.css.map",
-    "main.6fa23d70.js.map": "/static/js/main.6fa23d70.js.map",
+    "main.2f45eeef.css.map": "/static/css/main.2f45eeef.css.map",
+    "main.2528abc1.js.map": "/static/js/main.2528abc1.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e516bbca.css",
-    "static/js/main.6fa23d70.js"
+    "static/css/main.2f45eeef.css",
+    "static/js/main.2528abc1.js"
   ]
 }
